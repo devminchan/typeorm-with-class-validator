@@ -9,7 +9,7 @@ createConnection()
     user.firstName = 'minchan';
     user.lastName = 'Kim';
     user.age = 20;
-    user.email = 'minchan.dev@gmail.com';
+    user.email = '이메일 아님';
     await connection.manager.save(user);
     console.log('Saved a new user with id: ' + user.id);
 
